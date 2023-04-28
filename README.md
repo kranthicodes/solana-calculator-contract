@@ -12,11 +12,11 @@ This program is a smart contract written in Rust, a programming language used fo
 
 To run this program, clone the repo, build and deploy the program using the following commands.
 
-** Build **
+**Build**
 
 `cargo build-bpf --manifest-path=./Cargo.toml --bpf-out-dir=dist/program`
 
-** Deploy **
+**Deploy**
 
 `solana program deploy dist/program/solana_calculator.so`
 
@@ -24,17 +24,17 @@ Once you are done with the above steps, cd into scripts folder and run `npm inst
 
 After this step, use the following commands to interact with the contract:
 
-** Add two numbers **
+**Add two numbers**
 
 `npm run start -- add <NUM1> <NUM2>`
 
-** Subtract two numbers **
+**Subtract two numbers**
 
 `npm run start -- sub <NUM1> <NUM2>`
 
 ## Authors
 
-Metacrafter Chris  
+Sai Kranthi
 [@iamsaikranthi](https://twitter.com/iamsaikranthi)
 
 ## License
